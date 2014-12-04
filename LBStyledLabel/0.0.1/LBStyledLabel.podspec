@@ -86,7 +86,7 @@ Pod::Spec.new do |s|
   #
 
   s.public_header_files = 'LBStyledLabel/LBStyledLabel.h'
-  s.source_files  = "LBStyledLabel"
+  s.source_files  = "LBStyledLabel/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   s.resources = ["Resources/Fonts/**/*"]
