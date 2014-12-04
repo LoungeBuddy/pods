@@ -85,7 +85,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.public_header_files = 'LBStyledLabel/LBStyledLabel.h'
+  s.public_header_files = 'LBStyledLabel/*.h'
   s.source_files  = "LBStyledLabel/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
