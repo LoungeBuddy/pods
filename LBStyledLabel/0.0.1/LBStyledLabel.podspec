@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
                    consistent design across the brand.
                    DESC
 
-  s.homepage     = "http://LoungeBuddy.com/LBStyledLabel"
+  s.homepage     = "http://LoungeBuddy.com"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -35,8 +35,8 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  # s.license      = "MIT (example)"
+  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -74,7 +74,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "git@github.com:LoungeBuddy/LBStyledLabel.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/LoungeBuddy/LBStyledLabel.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   s.source_files  = "LBStyledLabel"
   s.exclude_files = "Classes/Exclude"
 
-  spec.resources = ["Resources/Fonts/**/*"]
+  s.resources = ["Resources/Fonts/**/*"]
   # s.public_header_files = "Classes/**/*.h"
 
 
