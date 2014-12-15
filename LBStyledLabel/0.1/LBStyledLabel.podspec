@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "http://LoungeBuddy.com"
-  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
   s.author             = { "Jessica Lam" => "jessica@loungebuddy.com" }
   
@@ -34,6 +34,6 @@ Pod::Spec.new do |s|
   s.source_files  = "LBStyledLabel/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
-  s.resources = ["Resources/Fonts/**/*"]
+  s.resources = "Resources/Fonts/**/*.ttf"
 
 end
