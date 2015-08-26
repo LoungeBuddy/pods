@@ -36,6 +36,6 @@ Pod::Spec.new do |s|
   s.frameworks = 'CoreFoundation','Foundation','CoreLocation', 'CoreData', 'SystemConfiguration', 'Security','MobileCoreServices','CFNetwork','AudioToolbox'
   s.libraries = 'z','sqlite3'
   s.ios.vendored_frameworks = 'Library/Support/Frameworks/*.framework'
-  s.ios.preserve_paths = 'Library/Support/Frameworks/*.framework'
+#  s.ios.preserve_paths = 'Library/Support/Frameworks/*.framework'
 
 end
