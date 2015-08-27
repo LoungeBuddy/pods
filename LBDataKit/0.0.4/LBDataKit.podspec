@@ -29,10 +29,11 @@ Pod::Spec.new do |s|
   s.exclude_files = '**/Reachability.{h,m}'
 
   s.header_dir = "LBDataKit"
-  s.dependency 'Bolts', '~> 1.0'
+
   s.dependency 'MagicalRecord', '2.3'
   s.dependency 'Reachability', '3.2'
-
+  s.dependency 'Bolts'
+#  s.dependency 'Parse', '1.5.0'
   s.frameworks = 'CoreFoundation','Foundation','CoreLocation', 'CoreData', 'SystemConfiguration', 'Security','MobileCoreServices','CFNetwork','AudioToolbox'
   s.libraries = 'z','sqlite3'
   s.ios.vendored_frameworks = 'Library/Support/Frameworks/*.framework'
